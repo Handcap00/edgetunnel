@@ -1650,7 +1650,7 @@ function subAddresses(host,UUID,noTLS,newAddressesapi,newAddressescsv,newAddress
 		}
 		
 		let 伪装域名 = host ;
-		let 最终路径 = '/?ed=2560' ;
+		let 最终路径 = '/ying' ;
 		let 节点备注 = '';
 		
 		if(proxyhosts.length > 0 && (伪装域名.includes('.workers.dev') || 伪装域名.includes('pages.dev'))) {
